@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+     <title>login</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            hight: 100vh;
+        }
+        .login-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: pink;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+        button:hover {
+            background-color: pink;
+        }
+        </style>
+     </body>
+       <div class="login-container">
+           <h1>login</h1>
+           <form>
+            <input type="text" placeholder="Masukkan Username" required />
+            <input type="password" placeholder="Masukkan password" required />
+            <button type="submit" >Login</button>
+            <p>Belum punya akun? <a  href="#" >Daftar akun</a></p>
+              </from>     
+         </div>
+        
+       <div class="login-container" ig="loginbox">
+            <h2> login</h2>
+            <input type="text" id="ussername" placeholder="Ussername" />
+            <inout type="password" id="password" placeholder="Password"
+            <div id="errorMsg" class="error hidden"></div>
+            <button onclick="login()"<login</button>
+        </div>
+       
+       
+        <div class="login-container hidden" id="welcomeBox">
+           <h2> Selamat Datang</h2>
+           <p id="welcomeUser"></p>
+           <button onclick="logout()</nutton>
+        </div>
+        
+        <script>
+           const user = "Silvia";
+           const user = "123";
+        
+           if (localStorage.getItem("loginUser")) {
+              showWelcome(localStorage.getIitem("loginUser")) ;
+           }
+           
+         function Login() ;
+          const uname = document.
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           "
+</html>    
